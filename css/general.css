@@ -1,0 +1,97 @@
+body {
+	color: black;
+	background-color: white;
+	font-family: Verdana, Helvetica, Arial;
+	font-size: 12px;
+	margin: 24px;
+	padding: 0;
+}
+
+h1 {
+	color: darkblue;
+	background-color: white;
+}
+
+h2 {
+ 	padding:6px;
+ 	margin:0;
+ 	border: black solid 1px;
+ 	background-color: darkblue;
+ 	color:white;
+}
+
+h3.extra {
+ 	padding:6px;
+ 	margin:0;
+ 	border: gray solid 1px;
+ 	background-color: #0066CC;
+ 	color:white;
+}
+
+select {
+	width:400px;
+}
+
+div.outer {
+ 	background-color: lightgray;
+ 	border: gray solid 1px;
+	padding:12px;
+	margin-top:24px;
+}
+
+div.inner {
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:justify;
+	font-size:11px;
+}
+
+div.foot {
+	float:right;
+	font-size:11px;
+	color:gray;
+}
+
+div.error {
+	border: #CC3333 solid 2px;
+	background-color: #FFCCCC;
+	color: #CC3333;
+	font-size:11px;
+	font-weight:bold;
+	padding:12px;
+	text-align:justify;
+	margin-bottom:6px;
+}
+
+div.warning {
+	border: #CC6633 solid 2px;
+	background-color: #FFDD99;
+	color: #CC6633;
+	font-size:11px;
+	font-weight:bold;
+	padding:12px;
+	text-align:justify;
+	margin-bottom:6px;
+}
+
+div.success {
+	border: #339933 solid 2px;
+	background-color: #CCFFCC;
+	color: #339933;
+	font-size:11px;
+	font-weight:bold;
+	padding:12px;
+	text-align:justify;
+	margin-bottom:6px;
+}
+
+div.note {
+	border: #6699CC solid 2px;
+	background-color: #DDEEFF;
+	color: #6699CC;
+	font-size:11px;
+	font-weight:bold;
+	padding:12px;
+	text-align:justify;
+	margin-bottom:6px;
+}
